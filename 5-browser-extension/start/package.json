@@ -21,5 +21,8 @@
 	},
 	"dependencies": {
 		"axios": "^0.19.2"
-	}
+	},
+  	"scripts": {
+    	"build": "webpack --config webpack.config.js"
+  	}
 }
